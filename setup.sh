@@ -4,10 +4,10 @@
 
 # Install Mosh
 # http://mosh.mit.edu
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:keithw/mosh
+sudo apt-get -y install python-software-properties
+sudo add-apt-repository -y ppa:keithw/mosh
 sudo apt-get update
-sudo apt-get install mosh
+sudo apt-get install -y mosh
 
 # Boiler plate from https://github.com/startup-class/setup/blob/master/setup.sh
 sudo apt-get install -y git-core
